@@ -1,0 +1,107 @@
+
+body, h1, p, button, input, select {
+    margin: 0;
+    padding: 0;
+  
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/163999/pexels-photo-163999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+  }
+  /* Container */
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  .yogaForm {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3483f1;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e8eeef;
+    color: #8a97a0;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e8eeef;
+    color: #8a97a0;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff0000;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a80000;
+  }
+

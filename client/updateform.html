@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yoga Form</title>
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+      <div class="container">
+        <div class="col-md-12">
+            <form action="" id="formdata" method="POST" role="form" class="yogaForm">
+                <h1>Yoga Session Form</h1>
+                <p id="output-message" class="form-control"></p>
+                <p>Hello there! You can update your yoga batch here.</p>
+                <br>
+                <p>**Updation will only work for those who have previously registered**</p>
+                <fieldset>
+                    <legend>Enter Your Details</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                    <br>
+                    <br>
+                    <label for="batch">Batch:</label>
+                    <select class="form-control" name="batch_id" id="batch_id" required>
+                        <option value=1>6 AM - 7 AM</option>
+                        <option value=2>7 AM - 8 AM</option>
+                        <option value=3>8 AM - 9 AM</option>
+                        <option value=4>5 AM - 6 PM</option>
+                    </select>
+                </fieldset>
+                <button type="submit" id="submit" value="submit" name="action">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="update.js" type="text/javascript"></script>
+    </body>
+    </html>
