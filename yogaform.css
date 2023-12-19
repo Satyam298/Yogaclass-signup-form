@@ -98,10 +98,10 @@ body, h1, p, button, input, select {
   }
   
   button[type="submit"] {
-    background-color: #ff0000;
+    background-color: #c89972;
   }
   
   button[type="submit"]:hover {
-    background-color: #a80000;
+    background-color: #c16700;
   }
 
